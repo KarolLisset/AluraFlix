@@ -1,0 +1,27 @@
+/* src/Components/CategoryList.css */
+.category-list {
+  margin-top: 20px;
+}
+
+.category-item {
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-item button {
+  margin-left: 10px;
+}
+
+.category-item button.edit {
+  background-color: #2196F3;
+}
+
+.category-item button.delete {
+  background-color: #f44336;
+}
